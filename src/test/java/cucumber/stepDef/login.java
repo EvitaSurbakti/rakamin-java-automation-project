@@ -1,4 +1,4 @@
-package swaglab.cucumber.stepDef;
+package cucumber.stepDef;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -66,4 +66,5 @@ public class login {
         Assert.assertEquals(errorLogin, "Epic sadface: Username and password do not match any user in this service");
         driver.close();
     }
+
 }
